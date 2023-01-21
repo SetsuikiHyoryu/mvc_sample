@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "brand": "HUAWEI",
+    "model": "Mate 50 PRO",
+    "price": "6999",
+    "spec": "8G + 256G"
+  },
+
+  {
+    "id": 3,
+    "brand": "OPPO",
+    "model": "FIND N2",
+    "price": "7999",
+    "spec": "12G + 256G"
+  },
+
+  {
+    "id": 5,
+    "brand": "IPHONE",
+    "model": "14 PRO MAX",
+    "price": "8999",
+    "spec": "6G + 128G"
+  }
+]

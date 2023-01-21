@@ -1,0 +1,19 @@
+<%- include('../templates/top.ejs') %>
+
+<h1>Mobile List</h1>
+
+<ul id="mobile-list">
+  <% mobileData.forEach((item) => { %>
+  <li>
+    <a href="http://localhost:9090/detail/<%= item.id %>">
+      <%= `${item.brand} ${item.model}` %>
+    </a>
+
+    <button class="remove-button" data-id="<%= item.id %>">REMOVE</button>
+  </li>
+  <% }) %>
+</ul>
+
+<%- include('../templates/mobileForm.ejs') %>
+<script src="/scripts/mobile.js"></script>
+<%- include('../templates/bottom.ejs') %>
